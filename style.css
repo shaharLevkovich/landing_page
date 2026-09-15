@@ -134,7 +134,36 @@ button{
     border-radius: 8px;
 }
 
+.qoute{
+    width:100%;
+    background-color: #E5E7EB;
+}
+
+.qoute_content{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.qoute_text{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.qoute_writer{
+    align-self: flex-end;
+}
+
 .footer{
     height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
