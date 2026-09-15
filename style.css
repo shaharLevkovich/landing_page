@@ -94,7 +94,7 @@ button{
     border: none;
 }
 
-.information{
+.information, .action{
     width:100%;
 }
 
@@ -156,6 +156,29 @@ button{
 
 .qoute_writer{
     align-self: flex-end;
+}
+
+.action_content{
+    display: flex;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 30px 24px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.action_text{
+    color:#E5E7EB;
+}
+
+.action_title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.action_button{
+    border: 2px solid #E5E7EB;
 }
 
 .footer{
